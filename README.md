@@ -16,6 +16,26 @@ It provides a method to override internationalization strings allowing customer 
 	
 	strings.xml is the default file in the standard format: http://docs.appcelerator.com/titanium/3.0/#!/guide/Internationalization
 	strings_custom.xml is the same format at strings.xml but only contians string to override.
+
+	
+	**strings.xml**
+	```
+        <?xml version="1.0" encoding="UTF-8"?>
+        <resources>
+            <string name="some_string">Some String</string>
+            <string name="some_other_string">Some Other String</string>
+        </resources>	
+	
+	```
+	
+	**strings_custom.xml**
+	```
+        <?xml version="1.0" encoding="UTF-8"?>
+        <resources>
+            <string name="some_other_string">Customer specific string</string>
+        </resources>	
+	
+	```	
 	
 	**NOTE**: The standard location of i18n files (/app/i18n/...) does not work with android when using modules that have a strings.xml file in their platform folder.
 	
