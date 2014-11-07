@@ -1,13 +1,13 @@
 {
 	"id": "net.schueller.i18noverride",
-	"name": "net.schueller.i18noverrde",
-	"description" : "Provides a method to override strings",
-	"author": "",
+	"name": "i18n Override Widget",
+	"description" : "This widget provides a method to override internationalization (i18n) strings allowing customer custom strings. Useful for white label apps.",
+	"author": "Stefan Schüller",
 	"version": "1.0.0",
 	"copyright":"Copyright (c) 2014",
-	"license":"Public Domain",
+	"license":"Apache License, Version 2.0",
 	"min-alloy-version": "1.0",
 	"min-titanium-version":"2.1",
-	"tags":"",
+	"tags":"i18n, internationalization, override",
 	"platforms":"android,blackberry,ios,mobileweb"
 }
